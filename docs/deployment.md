@@ -347,3 +347,12 @@ spec:
     targetPort: http
   tls:
     termination: edge
+# Deploy / OpenShift project
+
+Project (namespace): `shabinshareefa5018-dev`
+Created by: toolchain / CodeReady Toolchain
+
+To target cluster:
+```bash
+oc login --token=<token> --server=<api-server>
+oc project shabinshareefa5018-dev
